@@ -2,6 +2,7 @@ import math
 from deep_translator import GoogleTranslator
 
 def check_point_in_torus(x, y, r, R):
+    #sqrt(x^2 + y^2)
     distance = math.hypot(x, y)
     min_r = min(r, R)
     max_r = max(r, R)
